@@ -1,0 +1,30 @@
+import React from 'react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Menu from './components/Menu';
+import Reservation from './components/Reservation';
+import Gallery from './components/Gallery';
+import Testimonials from './components/Testimonials';
+import Location from './components/Location';
+import Footer from './components/Footer';
+import WhatsAppButton from './components/WhatsAppButton';
+
+function App() {
+  return (
+    <main className="min-h-screen bg-dark">
+      <Navbar />
+      <Hero />
+      <About />
+      <Menu />
+      <Reservation />
+      <Gallery />
+      <Testimonials />
+      <Location />
+      <Footer />
+      <WhatsAppButton />
+    </main>
+  );
+}
+
+export default App;
